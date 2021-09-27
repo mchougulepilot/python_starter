@@ -11,7 +11,7 @@ on:
       - RPO-*
       - DPO-*
       - NM-*
-    pull_request:
+  pull_request:
     branches:
     - develop
     - main
