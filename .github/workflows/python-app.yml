@@ -6,11 +6,11 @@ name: Python application
 on:
   push:
     branches:
-      - main
-      - develop
-      - RPO-*
-      - DPO-*
-      - NM-*
+    - main
+    - develop
+    - RPO-*
+    - DPO-*
+    - NM-*
   pull_request:
     branches:
     - develop
