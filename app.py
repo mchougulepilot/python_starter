@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/hello')  # this route is not working
 @app.route('/hello/')
 def hello_world():
-    return 'Hello Worlds fixxingbranch after push 928!\n'
+    return 'Hello Worlds checking restriction after push 928!\n'
 
 @app.route('/hello/<username>') # dynamic route
 def hello_user(username):
