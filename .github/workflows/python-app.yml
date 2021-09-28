@@ -30,7 +30,7 @@ jobs:
       run: |
         echo $secrets ${{ secrets.GITHUB_TOKEN }} ${{ secrets.pwd }} . " < here secret "
         python -m pip install --upgrade pip
-        pip install flake8 pytest
+        pip install flake8 asas pytest
         # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
