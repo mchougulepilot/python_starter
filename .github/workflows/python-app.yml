@@ -6,11 +6,11 @@ name: Python application
 on:
   push:
     branches:
-      - main
-      - develop
-      - RPO-*
-      - DPO-*
-      - NM-*
+    - main
+    - develop
+    - RPO-*
+    - DPO-*
+    - NM-*
     pull_request:
     branches:
     - develop
@@ -30,7 +30,7 @@ jobs:
       run: |
         echo $secrets ${{ secrets.GITHUB_TOKEN }} ${{ secrets.pwd }} . " < here secret "
         python -m pip install --upgrade pip
-        pip install flake8 pytest
+        pip install flake8 # pytest
         # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
