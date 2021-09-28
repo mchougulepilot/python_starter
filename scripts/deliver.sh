@@ -30,4 +30,3 @@ echo 'created your initial Pipeline as a Jenkinsfile.)'
 
 # HELLO!
 # Hello world!
-pip install flake8 asakhsas
