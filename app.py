@@ -6,12 +6,12 @@ app = Flask(__name__)
 @app.route('/hello')  # this route is not working
 @app.route('/hello/')
 def hello_world():
-    return 'Hello Worlds fixxingbranch after push 928!\n'
+    return 'Hello Worlds checking restriction after push 928!\n'
 
 @app.route('/hello/<username>') # dynamic route
 def hello_user(username):
     # show the user profile for that user
-    return 'Why Hello test %s!\n' % username
+    return 'Why Hello onemoretime %s!\n' % username
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')  # open for everyone
